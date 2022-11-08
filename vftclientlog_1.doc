@@ -1,0 +1,1538 @@
+[2022-11-04 15:55:00.754 PDT] User: , pwd: 
+[2022-11-04 15:55:01.030 PDT] laf class: javax.swing.plaf.metal.MetalLookAndFeel
+[2022-11-04 15:55:01.050 PDT] Set to exit on close, double check the Messenger code for additional hooks. [at com.intransit.vft.Desktop.jbInit():897]
+[2022-11-04 15:55:01.101 PDT] ClientList - initialized.
+[2022-11-04 15:55:01.841 PDT] 0 false
+[2022-11-04 15:55:01.847 PDT] 0 false
+[2022-11-04 15:55:02.195 PDT] File: SR  key: DefUsr
+
+[2022-11-04 15:55:02.207 PDT] File: COMPANY  key: R903
+
+[2022-11-04 15:55:02.482 PDT] File: CF  key: CURRENCY
+
+[2022-11-04 15:55:02.483 PDT] Record not found. File: CF, Key: CURRENCY [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():488]
+[2022-11-04 15:55:02.673 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 15:55:02.679 PDT] * Cache does not have a connection set! [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():300]
+[2022-11-04 15:55:02.688 PDT] data model set to the default modelatt: 9, conversion txt: , fileName: CGR, format: 0, label: Empty, str. len.: 1, table: CAN_GET_REQUEST, column: EMPTY [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:02.693 PDT] data model set to the default modelatt: 13, conversion txt: , fileName: CGR, format: 0, label: Available, str. len.: 8, table: CAN_GET_REQUEST, column: LOAD_AVAILABLE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:02.695 PDT] data model set to the default modelatt: 13, conversion txt: , fileName: CGR, format: 0, label: Available, str. len.: 8, table: CAN_GET_REQUEST, column: LOAD_AVAILABLE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:02.697 PDT] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@6d05470
+[2022-11-04 15:55:02.703 PDT] data model set to the default modelatt: 30, conversion txt: , fileName: CGR, format: 0, label: Rate Type, str. len.: 5, table: CAN_GET_REQUEST, column: AGREED_RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:02.708 PDT] Default Model
+[2022-11-04 15:55:02.715 PDT] Adding listener to the default model: com.intransit.vft.panel.maint.loads.VftLoadRequestCarrierPanel$4@273ebf2c
+[2022-11-04 15:55:02.716 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@25a863e8
+[2022-11-04 15:55:02.718 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@4e9f721a
+[2022-11-04 15:55:02.719 PDT] Adding listener to the default model: com.intransit.vft.panel.maint.loads.VftLoadRequestCarrierPanel$ViewCommentsTable$DataListener@284eff02
+[2022-11-04 15:55:02.796 PDT] jnlp.url not specified
+[2022-11-04 15:55:08.777 PDT] Messenger-> init networking
+[2022-11-04 15:55:08.843 PDT] KA:true
+[2022-11-04 15:55:08.972 PDT] 7 = 192 ms 	 memory used = 132975576	Finished init
+[2022-11-04 15:55:08.973 PDT] Messenger -> finished init()... Waiting for Login Response [at com.intransit.vft.messenger.client.NetMessNetworkController.initNetworking():346]
+[2022-11-04 15:55:09.115 PDT] Messenger-> Login Successful
+[2022-11-04 15:55:09.118 PDT] Verify Path: C:\Users\David Hernandez\java_chat
+[2022-11-04 15:55:09.121 PDT] Messenger-> session obtained, waiting for client list. [at com.intransit.vft.messenger.client.NetMessNetworkController.loginSuccessful():378]
+[2022-11-04 15:55:09.123 PDT] first file:C:\Users\David Hernandez\java_chat\verif.1.10.2022.ser1
+[2022-11-04 15:55:09.336 PDT] Client List received
+[2022-11-04 15:55:09.400 PDT] Setting performance logger path C:\Users\David Hernandez\My Documents/vft
+[2022-11-04 15:55:09.406 PDT] client PRODUCTION: vft.us.dsv.com [at com.intransit.vft.server.client.RemoteServerConnection.setProductionServer():421]
+[2022-11-04 15:55:09.420 PDT] Connecting to: //vft.us.dsv.com:23302/vft.server.VftLogin [at com.intransit.vft.server.client.RemoteServerConnection.login():448]
+[2022-11-04 15:55:09.747 PDT] DHE -> Proxy[VftLogin,RemoteObjectInvocationHandler[UnicastRef2 [liveRef: [endpoint:[vft.us.dsv.com:23300,com.intransit.util.net.SslClientSocketFactory@499602d2](remote),objID:[5259cf7d:1843b857f5e:-7ffc, -7689605647415280778]]]]]
+[2022-11-04 15:55:10.479 PDT] Proxy[VftLogin,RemoteObjectInvocationHandler[UnicastRef2 [liveRef: [endpoint:[vft.us.dsv.com:23300,com.intransit.util.net.SslClientSocketFactory@499602d2](remote),objID:[5259cf7d:1843b857f5e:-7ffc, -7689605647415280778]]]]] [at com.intransit.vft.server.client.RemoteServerConnection.login():490]
+[2022-11-04 15:55:10] Releasing all locks for user: DHE[2022-11-04 15:55:10.582 PDT] 
+[2022-11-04 15:55:14.230 PDT] Reloading table settings cache
+[2022-11-04 15:55:18.922 PDT] Time to load table settings cache: 4692
+[2022-11-04 15:55:18.923 PDT] Load table settings 7464
+[2022-11-04 15:55:18.924 PDT] Polling
+[2022-11-04 15:55:21.335 PDT] 5 false
+[2022-11-04 15:55:21.926 PDT] Menu Structure doesn't exist in menuxml file for provider: CompanyPopup. Please check PopupMenu name in menuxml file.
+[2022-11-04 15:55:21.968 PDT] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-04 15:55:21.987 PDT] Menu Structure doesn't exist in menuxml file for provider: MultipleOrderPopup. Please check PopupMenu name in menuxml file.
+[2022-11-04 15:55:23.716 PDT] Number of messages polled 5011
+[2022-11-04 15:55:27.958 PDT] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-04 15:55:27.972 PDT] Menu Structure doesn't exist in menuxml file for provider: MultipleOrderPopup. Please check PopupMenu name in menuxml file.
+[2022-11-04 15:55:56.180 PDT] Menu Structure doesn't exist in menuxml file for provider: CompanyPopup. Please check PopupMenu name in menuxml file.
+[2022-11-04 15:55:56.184 PDT] Menu Structure doesn't exist in menuxml file for provider: CompanyPopup. Please check PopupMenu name in menuxml file.
+[2022-11-04 15:55:56.722 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@15da2909
+[2022-11-04 15:55:56.723 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@456b17b9
+[2022-11-04 15:55:56.735 PDT] data model set to the default modelatt: 83, conversion txt: , fileName: CAR, format: 0, label: Insurance Currency, str. len.: 3, table: CARRIER, column: INSURANCE_CURRENCY [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:56.736 PDT] data model set to the default modelatt: 472, conversion txt: , fileName: CAR, format: 0, label: Status, str. len.: 20, table: CARRIER_COMPANY, column: STATUS [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:56.736 PDT] Adding listener to the default model: com.intransit.vft.swinghelpers.carrier.CarrierStatusComboBox$DataListener@2c183815
+[2022-11-04 15:55:56.737 PDT] Record not found. File: IC, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-04 15:55:56.738 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 15:55:56.740 PDT] Record not found. File: IC, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-04 15:55:56.741 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 15:55:56.743 PDT] Default Model
+[2022-11-04 15:55:56.744 PDT] Record not found. File: IC, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-04 15:55:56.745 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 15:55:56.747 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@7ae99ec9
+[2022-11-04 15:55:56.748 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@4b07d7b6
+[2022-11-04 15:55:56.749 PDT] Record not found. File: IC, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-04 15:55:56.750 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 15:55:56.969 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@aafc56d
+[2022-11-04 15:55:56.970 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@75c28b85
+[2022-11-04 15:55:56.971 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@1f0f7999
+[2022-11-04 15:55:56.971 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@1ff0b0cb
+[2022-11-04 15:55:57.071 PDT] Adding listener to the default model: com.intransit.vft.panel.maint.carrier.EDIOutboundTransactionConfigCloneablePanel$LocalDataListener@63a47015
+[2022-11-04 15:55:57.073 PDT] data model set to the default modelatt: 256, conversion txt: , fileName: CAR, format: 0, label: Connection Type, str. len.: 64, table: CARRIER_EDI_TXN_CONFIG, column: CONNECTION_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.076 PDT] Default Model
+[2022-11-04 15:55:57.077 PDT] data model set to the default modelatt: 264, conversion txt: , fileName: CAR, format: 0, label: Line Feed, str. len.: 64, table: CARRIER_EDI_TXN_CONFIG, column: LINE_FEED [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.078 PDT] data model set to the default modelatt: 266, conversion txt: , fileName: CAR, format: 0, label: Send Pick Up Notification, str. len.: 64, table: CARRIER_EDI_TXN_CONFIG, column: SEND_PICK_UP_NOTIFICATION [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.122 PDT] Adding listener to the default model: com.intransit.vft.panel.maint.carrier.EDIInboundTransactionConfigCloneablePanel$LocalDataListener@1da9c58d
+[2022-11-04 15:55:57.123 PDT] data model set to the default modelatt: 430, conversion txt: , fileName: CAR, format: 0, label: Connection Type, str. len.: 4, table: CARRIER_EDI_INCONF, column: CONNECTION_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.124 PDT] Default Model
+[2022-11-04 15:55:57.126 PDT] data model set to the default modelatt: 527, conversion txt: , fileName: CAR, format: 0, label: Response Type, str. len.: 128, table: CARRIER_EDI_INCONF, column: RESPONSE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.126 PDT] Default Model
+[2022-11-04 15:55:57.127 PDT] data model set to the default modelatt: 434, conversion txt: , fileName: CAR, format: 0, label: Document Type, str. len.: 8, table: CARRIER_EDI_INCONF, column: DOCUMENT_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.128 PDT] data model set to the default modelatt: 282, conversion txt: , fileName: CAR, format: 0, label: EDI Segment Delimiter Type, str. len.: 1, table: CARRIER_EDI_INCONF, column: EDI_SEGMENT_DELIM_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.129 PDT] data model set to the default modelatt: 283, conversion txt: , fileName: CAR, format: 0, label: EDI Line Delimiter Type, str. len.: 1, table: CARRIER_EDI_INCONF, column: EDI_LINE_DELIM_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:57.130 PDT] data model set to the default modelatt: 284, conversion txt: , fileName: CAR, format: 0, label: EDI Document Split Delimiter Type, str. len.: 1, table: CARRIER_EDI_INCONF, column: EDI_DOCUMENT_SPLIT_DELIM_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 15:55:58.436 PDT] TableFilteringPanel: Can't build 'Carrier~General Information (GI)~Web' Filtering Panel - name has already been used [at com.intransit.dbs.swing.table.TableFilteringPanel.setTableName():411]
+[2022-11-04 15:56:04.794 PDT] Data changed -- clearing out docs null 9199440 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:56:04.798 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 15:56:04.907 PDT] Data changed -- clearing out docs null 9199440 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:56:04.910 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 15:56:12.967 PDT] Data changed -- clearing out docs 9199440 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:56:12.968 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 15:56:12.969 PDT] Data changed -- clearing out docs 9199440 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:56:12.969 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 15:56:17.121 PDT] Data changed -- clearing out docs null 9190210 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:56:17.122 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 15:56:17.122 PDT] Data changed -- clearing out docs null 9190210 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:56:17.123 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 15:57:00.746 PDT] Checking for VFT updates...
+[2022-11-04 15:58:16.576 PDT] Data changed -- clearing out docs 9190210 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:58:16.578 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 15:58:16.580 PDT] Data changed -- clearing out docs 9190210 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 15:58:16.584 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 16:05:34.271 PDT] Saving AUDC record: {DHE}{192.168.1.17}{DESKTOP-CGD9FGG}{8054}{0}{Windows 10}{10.0}{4}{}{}{en_US}{America/New_York}{}{[1920][1920]}{[1080][1080]}{0}{0}{0}{2022-11-04 16:00:23}
+
+[2022-11-04 16:10:23.741 PDT] Polling
+[2022-11-04 16:10:28.963 PDT] Number of messages polled 5011
+[2022-11-04 16:20:29.074 PDT] Polling
+[2022-11-04 16:20:34.621 PDT] Number of messages polled 5011
+[2022-11-04 16:30:34.673 PDT] Polling
+[2022-11-04 16:30:40.807 PDT] Number of messages polled 5011
+[2022-11-04 16:40:40.849 PDT] Polling
+[2022-11-04 16:40:47.403 PDT] Number of messages polled 5011
+[2022-11-04 16:44:13.313 PDT] !!!!!!!!!!!!!   SocketWrapperImpl.reset() invoked !!!!!!!!!!!
+[2022-11-04 16:44:13.339 PDT] java.lang.Thread.getStackTrace(Unknown Source):SocketWrapperImpl$ReadThread: << Using java.io.PrintStream >>
+[2022-11-04 16:44:13.342 PDT] java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.intransit.util.net.SocketWrapperImpl$ReadThread.run(SocketWrapperImpl.java:558)
+[2022-11-04 16:44:13.375 PDT] KA:true
+[2022-11-04 16:44:13.704 PDT] socket closed, reconnecting in 20 sec, reason:write thread died
+[2022-11-04 16:44:13.708 PDT] java.lang.Thread.getStackTrace(Unknown Source):SocketWrapperImpl$ReadThread: << Using java.io.PrintStream >>
+[2022-11-04 16:44:13.711 PDT] java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.intransit.util.net.SocketWrapperImpl$ReadThread.run(SocketWrapperImpl.java:558)
+[2022-11-04 16:44:33.708 PDT] Messenger-> init networking
+[2022-11-04 16:44:33.757 PDT] KA:true
+[2022-11-04 16:44:33.835 PDT] 7 = 121 ms 	 memory used = 251398432	Finished init
+[2022-11-04 16:44:33.837 PDT] Messenger -> finished init()... Waiting for Login Response [at com.intransit.vft.messenger.client.NetMessNetworkController.initNetworking():346]
+[2022-11-04 16:44:33.840 PDT] reconnected
+[2022-11-04 16:44:33.997 PDT] Messenger-> Login Successful
+[2022-11-04 16:44:33.998 PDT] Messenger-> session obtained, waiting for client list. [at com.intransit.vft.messenger.client.NetMessNetworkController.loginSuccessful():378]
+[2022-11-04 16:44:34.259 PDT] Client List received
+[2022-11-04 16:44:39.011 PDT] Polling
+[2022-11-04 16:44:44.823 PDT] Number of messages polled 5011
+[2022-11-04 16:44:53.702 PDT] !!!!!!!!!!!!!   SocketWrapperImpl.reset() invoked !!!!!!!!!!!
+[2022-11-04 16:58:44.861 PDT] Polling
+[2022-11-04 16:58:49.981 PDT] Number of messages polled 5011
+[2022-11-04 17:11:41.343 PDT] TableFilteringPanel: Can't build 'Carrier~General Information (GI)~Web' Filtering Panel - name has already been used [at com.intransit.dbs.swing.table.TableFilteringPanel.setTableName():411]
+[2022-11-04 17:11:49.002 PDT] Data changed -- clearing out docs null 9210014 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:11:49.005 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:11:49.121 PDT] Data changed -- clearing out docs null 9210014 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:11:49.123 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:11:49.410 PDT] com.intransit.vft.server.interfaces.RecordNotFoundException: SQL File: CAR411;  key: MC103534
+	at com.intransit.vft.server.sql.GenericJbaseFileFacade.produceRecordNotFoundException(GenericJbaseFileFacade.java:641)
+	at com.intransit.vft.server.sql.GenericJbaseFileFacade$ReadExecutionCommand.execute(GenericJbaseFileFacade.java:1204)
+	at com.intransit.vft.server.sql.SQLExecutor.executeReadOnlyCommand(SQLExecutor.java:42)
+	at com.intransit.vft.server.sql.GenericJbaseFileFacade.read(GenericJbaseFileFacade.java:220)
+	at com.intransit.vft.server.sql.GenericJbaseFileFacade.read(GenericJbaseFileFacade.java:215)
+	at com.intransit.vft.server.DBConnectionPipedImpl.read(DBConnectionPipedImpl.java:517)
+	at com.intransit.vft.server.DBConnectionPipedImpl.read(DBConnectionPipedImpl.java:482)
+	at com.intransit.vft.server.ServerImpl.read(ServerImpl.java:359)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy1.read(Unknown Source)
+	at com.intransit.vft.server.client.RemoteServerConnection.read(RemoteServerConnection.java:837)
+	at com.intransit.vft.server.client.RemoteServerConnection.read(RemoteServerConnection.java:797)
+	at com.intransit.vft.maint.carrier.MaintCar.readExtraData(MaintCar.java:526)
+	at com.intransit.vft.panel.MaintButtons.lookupComplete(MaintButtons.java:1223)
+	at com.intransit.vft.swinghelpers.LookupPanel.fireLookupSuccessful(LookupPanel.java:277)
+	at com.intransit.vft.swinghelpers.LookupPanel.validateInputAndLookup(LookupPanel.java:857)
+	at com.intransit.vft.swinghelpers.LookupPanel$EventDelegate.focusLost(LookupPanel.java:1201)
+	at java.awt.AWTEventMulticaster.focusLost(Unknown Source)
+	at java.awt.AWTEventMulticaster.focusLost(Unknown Source)
+	at java.awt.Component.processFocusEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.KeyboardFocusManager.redispatchEvent(Unknown Source)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(Unknown Source)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+[2022-11-04 17:12:00.324 PDT] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-04 17:13:03.681 PDT] java.lang.Thread.getStackTrace(Unknown Source):AWT-EventQueue-2: << Using java.io.PrintStream >>
+[2022-11-04 17:13:03.682 PDT] java.net.URISyntaxException: Illegal character in opaque part at index 47: mailto:intermodal@us.dsv.com?subject=Intermodal Rate Request
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	at com.intransit.vft.util.BrowserControl.displayURL(BrowserControl.java:36)
+	at com.intransit.vft.menu.WebSitesMenu$LinksActionWithListener.actionPerformed(WebSitesMenu.java:68)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.AbstractButton.doClick(Unknown Source)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(Unknown Source)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.menuDragMouseReleased(Unknown Source)
+	at javax.swing.JMenuItem.fireMenuDragMouseReleased(Unknown Source)
+	at javax.swing.JMenuItem.processMenuDragMouseEvent(Unknown Source)
+	at javax.swing.JMenuItem.processMouseEvent(Unknown Source)
+	at javax.swing.MenuSelectionManager.processMouseEvent(Unknown Source)
+	at javax.swing.plaf.basic.BasicPopupMenuUI$MouseGrabber.eventDispatched(Unknown Source)
+	at java.awt.Toolkit$SelectiveAWTEventListener.eventDispatched(Unknown Source)
+	at java.awt.Toolkit$ToolkitEventMulticaster.eventDispatched(Unknown Source)
+	at java.awt.Toolkit.notifyAWTEventListeners(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+[2022-11-04 17:13:08.906 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@50e8c235
+[2022-11-04 17:13:08.907 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@231562d1
+[2022-11-04 17:13:08.910 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@1d515a47
+[2022-11-04 17:13:08.911 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@41d08474
+[2022-11-04 17:13:08.912 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@573f0f11
+[2022-11-04 17:13:08.913 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@5fb4fccd
+[2022-11-04 17:13:08.914 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@48a0161e
+[2022-11-04 17:13:08.914 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@d16d85a
+[2022-11-04 17:13:08.930 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@58bbc784
+[2022-11-04 17:13:08.930 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@48a53ea3
+[2022-11-04 17:13:08.934 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@566320d0
+[2022-11-04 17:13:08.934 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@1a5d51bb
+[2022-11-04 17:13:08.935 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@1c5c3293
+[2022-11-04 17:13:08.936 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@7ded579d
+[2022-11-04 17:13:08.937 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@32479d50
+[2022-11-04 17:13:08.937 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@4267d22a
+[2022-11-04 17:13:10.307 PDT] 44 = 5 ms 	 memory used = 384366784	End of loading
+[2022-11-04 17:13:10.599 PDT] 44 = 3 ms 	 memory used = 386598280	End of loading
+[2022-11-04 17:13:10.872 PDT] 44 = 0 ms 	 memory used = 195234336	End of loading
+[2022-11-04 17:13:10.890 PDT] 44 = 1 ms 	 memory used = 195234336	End of loading
+[2022-11-04 17:13:11.033 PDT]   1
+[2022-11-04 17:13:16.042 PDT] Attempting to set empty CSR on load null
+[2022-11-04 17:13:16.044 PDT] 44 = 1 ms 	 memory used = 198339408	End of loading
+[2022-11-04 17:14:10.058 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:10.062 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:10.064 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:10.065 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:10.242 PDT] 44 = 2 ms 	 memory used = 218860152	End of loading
+[2022-11-04 17:14:10.380 PDT]  142750 1
+[2022-11-04 17:14:19.799 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:19.802 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:19.803 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:19.804 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:19.947 PDT]  142750 1
+[2022-11-04 17:14:25.068 PDT]  142750 1
+[2022-11-04 17:14:26.638 PDT] SI 142750 1
+[2022-11-04 17:14:26.684 PDT] SI 142750 1
+[2022-11-04 17:14:26.940 PDT] SI 142750 1
+[2022-11-04 17:14:26.942 PDT] SI 142750 1
+[2022-11-04 17:14:42.898 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:42.905 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:42.906 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:42.908 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:14:43.010 PDT] 44 = 0 ms 	 memory used = 241986816	End of loading
+[2022-11-04 17:14:43.119 PDT] //vft.us.dsv.com:23302/pcmiler  null [at com.intransit.pcmiler.PCMClient.init():77]
+[2022-11-04 17:15:20.997 PDT] SI 142750 1
+[2022-11-04 17:15:20.999 PDT]  142750 1
+[2022-11-04 17:15:21.413 PDT] SI 142750 1
+[2022-11-04 17:15:22.149 PDT] Received typed msg for conversation 67151764:false
+[2022-11-04 17:15:22.829 PDT]   1
+[2022-11-04 17:15:22.868 PDT] 44 = 0 ms 	 memory used = 275407224	End of loading
+[2022-11-04 17:15:22.885 PDT]   1
+[2022-11-04 17:15:22.939 PDT]   1
+[2022-11-04 17:15:24.621 PDT] 44 = 0 ms 	 memory used = 281024432	End of loading
+[2022-11-04 17:15:51.044 PDT] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-04 17:15:52.573 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@f6a9d47
+[2022-11-04 17:15:52.574 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@3a39ee4
+[2022-11-04 17:15:52.578 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@6cee36be
+[2022-11-04 17:15:52.579 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@60fe7ca
+[2022-11-04 17:15:52.583 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@5d54c2e9
+[2022-11-04 17:15:52.583 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@429f3319
+[2022-11-04 17:15:52.587 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@5f59a632
+[2022-11-04 17:15:52.588 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@26113ba4
+[2022-11-04 17:15:52.589 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@5d29e605
+[2022-11-04 17:15:52.590 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@66950142
+[2022-11-04 17:15:52.591 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@74ef5394
+[2022-11-04 17:15:52.592 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@5b0c8ab6
+[2022-11-04 17:15:52.603 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@18d83c02
+[2022-11-04 17:15:52.604 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@3c88cc71
+[2022-11-04 17:15:52.608 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@6a7c6d4a
+[2022-11-04 17:15:52.609 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@42f1bac6
+[2022-11-04 17:15:52.613 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@1b10b6b6
+[2022-11-04 17:15:52.613 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@61011ae1
+[2022-11-04 17:15:52.617 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@681e2db6
+[2022-11-04 17:15:52.618 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@27769df9
+[2022-11-04 17:15:52.619 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@394d2aa7
+[2022-11-04 17:15:52.620 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@5072e97d
+[2022-11-04 17:15:52.621 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@49181d58
+[2022-11-04 17:15:52.622 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@5a92c8d7
+[2022-11-04 17:15:52.694 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@2910290a
+[2022-11-04 17:15:52.695 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@47468ae5
+[2022-11-04 17:15:53.036 PDT] Adding listener to the default model: com.intransit.vft.settlements.ui.panels.PaperworkCommentsPanel[,0,0,0x0,invalid,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+[2022-11-04 17:15:53.036 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@6329688d
+[2022-11-04 17:15:53.037 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@6c2b43f4
+[2022-11-04 17:15:53.048 PDT] data model set to the default modelatt: 205, conversion txt: , fileName: LM, format: 0, label: Ship Rate Type, str. len.: 5, table: LOAD_SHIPPER, column: RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:15:53.049 PDT] Default Model
+[2022-11-04 17:15:53.050 PDT] data model set to the default modelatt: 439, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_SHIPPER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:15:53.051 PDT] data model set to the default modelatt: 265, conversion txt: , fileName: LM, format: 0, label: Tracking Proposed Rate, str. len.: 12, table: LOAD, column: TRACKING_PROPOSED_RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:15:53.051 PDT] Default Model
+[2022-11-04 17:15:53.052 PDT] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@721864a
+[2022-11-04 17:15:53.052 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@6329688d
+[2022-11-04 17:15:53.053 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@6c2b43f4
+[2022-11-04 17:15:53.053 PDT] Adding listener to the default model: com.intransit.vft.settlements.ui.panels.PaperworkCommentsPanel[,0,0,996x-1,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=java.awt.Dimension[width=996,height=-1],minimumSize=java.awt.Dimension[width=996,height=-1],preferredSize=java.awt.Dimension[width=996,height=-1]]
+[2022-11-04 17:15:53.054 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@6329688d
+[2022-11-04 17:15:53.054 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@6c2b43f4
+[2022-11-04 17:15:53.067 PDT] data model set to the default modelatt: 444, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_CARRIER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:15:53.075 PDT] data model set to the default modelatt: 105, conversion txt: , fileName: LM, format: 0, label: Car Rate Type, str. len.: 5, table: LOAD_CARRIER, column: RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:15:53.075 PDT] Default Model
+[2022-11-04 17:15:53.076 PDT] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@27d4dd0f
+[2022-11-04 17:15:53.107 PDT] Record not found. File: WM, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-04 17:15:53.107 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 17:15:53.117 PDT] Record not found. File: WM, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-04 17:15:53.118 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 17:15:53.161 PDT] 12 = 0 ms 	 memory used = 240931032	Maint LM Start Read
+[2022-11-04 17:15:53.161 PDT] 12 = 0 ms 	 memory used = 240931032	Start of NEW Read
+[2022-11-04 17:15:53.381 PDT] 12 = 220 ms 	 memory used = 240938336	After Perform Read
+[2022-11-04 17:15:53.382 PDT] 12 = 1 ms 	 memory used = 244707520	After Read Extra
+[2022-11-04 17:15:53.385 PDT] 12 = 3 ms 	 memory used = 244707520	Before set edit
+[2022-11-04 17:15:53.387 PDT] 12 = 2 ms 	 memory used = 244707520	After set editable, start set data
+[2022-11-04 17:15:53.417 PDT] 44 = 1 ms 	 memory used = 244707520	End of loading
+[2022-11-04 17:15:53.649 PDT] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:15:53.650 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:15:53.658 PDT] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:15:53.659 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:15:53.979 PDT] 12 = 592 ms 	 memory used = 248405744	After set data
+[2022-11-04 17:15:53.980 PDT] 12 = 1 ms 	 memory used = 248405744	After Update cache
+[2022-11-04 17:15:53.981 PDT] 12 = 1 ms 	 memory used = 248405744	After Equals
+[2022-11-04 17:15:53.982 PDT] 12 = 1 ms 	 memory used = 248405744	After dynamicArraySet()
+[2022-11-04 17:15:53.999 PDT] 12- 838 ms; Total Read Time (End of read() method Call)
+[2022-11-04 17:15:54.001 PDT] 12 = 19 ms 	 memory used = 252093640	After Read
+[2022-11-04 17:15:54.188 PDT] SI 142750 1
+[2022-11-04 17:15:54.261 PDT] SI 142750 1
+[2022-11-04 17:15:55.791 PDT] SI 142750 1
+[2022-11-04 17:15:55.924 PDT] 12 = 1,923 ms 	 memory used = 259846912	Before set edit
+[2022-11-04 17:15:56.083 PDT] 12 = 159 ms 	 memory used = 263547336	After set editable, start set data
+[2022-11-04 17:15:56.111 PDT] 44 = 0 ms 	 memory used = 270930480	End of loading
+[2022-11-04 17:15:56.373 PDT] Same key - data not loaded 15543386 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1688]
+[2022-11-04 17:15:56.374 PDT] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:15:56.378 PDT] Same key - data not loaded 15543386 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1688]
+[2022-11-04 17:15:56.379 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:15:56.409 PDT] 12 = 326 ms 	 memory used = 270942312	After set data
+[2022-11-04 17:15:56.410 PDT] 12 = 1 ms 	 memory used = 270942312	After Update cache
+[2022-11-04 17:15:56.411 PDT] 12 = 1 ms 	 memory used = 270942312	After Equals
+[2022-11-04 17:15:56.412 PDT] 12 = 0 ms 	 memory used = 270942312	After dynamicArraySet()
+[2022-11-04 17:15:56.527 PDT] SI 142750 1
+[2022-11-04 17:15:56.529 PDT]  142750 1
+[2022-11-04 17:15:56.605 PDT] SI 142750 1
+[2022-11-04 17:15:56.607 PDT]  142750 1
+[2022-11-04 17:15:57.447 PDT] SI 142750 1
+[2022-11-04 17:15:57.449 PDT]  142750 1
+[2022-11-04 17:16:22.598 PDT] Updating 15543386
+[2022-11-04 17:16:22.629 PDT] SI 142750 1
+[2022-11-04 17:16:22.736 PDT] 12 = 26,325 ms 	 memory used = 286833632	Updt: Before doc check
+[2022-11-04 17:16:22.737 PDT] 12 = 1 ms 	 memory used = 286869456	Updt: After doc
+[2022-11-04 17:16:22.769 PDT] SI 142750 1
+[2022-11-04 17:16:22.984 PDT] 12 = 247 ms 	 memory used = 287175952	Updt: Before Incentive
+[2022-11-04 17:16:22.985 PDT] 12 = 1 ms 	 memory used = 287175952	Updt: After Incentive - before cancel orders
+[2022-11-04 17:16:22.986 PDT] 12 = 0 ms 	 memory used = 287175952	Updt: After cancel orders
+[2022-11-04 17:16:23.167 PDT] Data changed -- clearing out docs 15543386 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:16:23.172 PDT] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:16:23.176 PDT] Data changed -- clearing out docs 15543386 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:16:23.177 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:16:23.204 PDT] 12 = 219 ms 	 memory used = 290900360	Updt: Before doc save
+[2022-11-04 17:16:23.204 PDT] 12 = 0 ms 	 memory used = 290900360	Updt: After doc save
+[2022-11-04 17:16:23.280 PDT] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:16:23.284 PDT] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:16:23.289 PDT] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:16:23.291 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:16:23.353 PDT] 12 = 149 ms 	 memory used = 294872152	Maint LM Start Read
+[2022-11-04 17:16:23.353 PDT] 12 = 0 ms 	 memory used = 294872152	Start of NEW Read
+[2022-11-04 17:16:23.505 PDT] 12 = 152 ms 	 memory used = 294956856	After Perform Read
+[2022-11-04 17:16:23.505 PDT] 12 = 0 ms 	 memory used = 294956856	After Read Extra
+[2022-11-04 17:16:23.506 PDT] 12 = 1 ms 	 memory used = 294956856	Before set edit
+[2022-11-04 17:16:23.512 PDT] 12 = 6 ms 	 memory used = 294956856	After set editable, start set data
+[2022-11-04 17:16:23.532 PDT] 44 = 2 ms 	 memory used = 294956856	End of loading
+[2022-11-04 17:16:23.746 PDT] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:16:23.749 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:16:23.749 PDT] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:16:23.749 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:16:23.980 PDT] 12 = 468 ms 	 memory used = 298755600	After set data
+[2022-11-04 17:16:23.983 PDT] 12 = 3 ms 	 memory used = 298755600	After Update cache
+[2022-11-04 17:16:23.986 PDT] 12 = 3 ms 	 memory used = 298755600	After Equals
+[2022-11-04 17:16:23.988 PDT] 12 = 2 ms 	 memory used = 298755600	After dynamicArraySet()
+[2022-11-04 17:16:24.022 PDT] SI 142750 1
+[2022-11-04 17:16:24.079 PDT] 12- 726 ms; Total Read Time (End of read() method Call)
+[2022-11-04 17:16:24.103 PDT] SI 142750 1
+[2022-11-04 17:16:24.109 PDT] 12 = 121 ms 	 memory used = 302443512	After Read
+[2022-11-04 17:16:24.472 PDT] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-04 17:16:26.170 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@7de8f9aa
+[2022-11-04 17:16:26.171 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@717d9378
+[2022-11-04 17:16:26.176 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@d71cf36
+[2022-11-04 17:16:26.176 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@5e5eb47c
+[2022-11-04 17:16:26.187 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@539f15a1
+[2022-11-04 17:16:26.187 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@562743fc
+[2022-11-04 17:16:26.191 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@6ffcac4c
+[2022-11-04 17:16:26.191 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@3c46764f
+[2022-11-04 17:16:26.219 PDT] data model set to the default modelatt: 444, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_CARRIER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:16:26.225 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 17:16:26.226 PDT] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@76cf7ce2
+[2022-11-04 17:16:26.226 PDT] data model set to the default modelatt: 105, conversion txt: , fileName: LM, format: 0, label: Car Rate Type, str. len.: 5, table: LOAD_CARRIER, column: RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:16:26.227 PDT] Default Model
+[2022-11-04 17:16:26.227 PDT] Record not found. File: CITY, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-04 17:16:26.228 PDT] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-04 17:16:26.229 PDT] data model set to the default modelatt: 804, conversion txt: , fileName: LM, format: 0, label: Tracking Method, str. len.: 32, table: LOAD_CARRIER, column: TRACKING_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:16:26.230 PDT] data model set to the default modelatt: 865, conversion txt: , fileName: LM, format: 0, label: Desired Tracking Method, str. len.: 32, table: LOAD_CARRIER, column: DESIRED_TRACKING_METHOD [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:16:26.526 PDT] Listener override for spec: att: 1, conversion txt: , fileName: LM, format: 0, label: Status, str. len.: 16, table: LOAD, column: STATUS [at com.intransit.vft.validators.LoadDataListener.setListenerForSpec():162]
+[2022-11-04 17:16:26.653 PDT] 12 = 0 ms 	 memory used = 339654736	Start of NEW Read
+[2022-11-04 17:16:26.828 PDT] 12 = 175 ms 	 memory used = 339654736	After Perform Read
+[2022-11-04 17:16:26.830 PDT] 12 = 2 ms 	 memory used = 339654736	After Read Extra
+[2022-11-04 17:16:26.832 PDT] 12 = 2 ms 	 memory used = 339654736	Before set edit
+[2022-11-04 17:16:26.834 PDT] 12 = 2 ms 	 memory used = 339654736	After set editable, start set data
+[2022-11-04 17:16:26.861 PDT] 44 = 1 ms 	 memory used = 343342632	End of loading
+[2022-11-04 17:16:27.285 PDT] 12 = 451 ms 	 memory used = 343717872	After set data
+[2022-11-04 17:16:27.286 PDT] 12 = 1 ms 	 memory used = 343717872	After dynamicArraySet()
+[2022-11-04 17:16:27.287 PDT] 12- 634 ms; Total Read Time (End of read() method Call)
+[2022-11-04 17:16:29.185 PDT] 12 = 1,899 ms 	 memory used = 347521496	Before set edit
+[2022-11-04 17:16:29.253 PDT] 12 = 68 ms 	 memory used = 347521496	After set editable, start set data
+[2022-11-04 17:16:29.256 PDT] 44 = 0 ms 	 memory used = 347619912	End of loading
+[2022-11-04 17:16:29.607 PDT] 12 = 354 ms 	 memory used = 351322392	After set data
+[2022-11-04 17:16:29.607 PDT] 12 = 0 ms 	 memory used = 351322392	After dynamicArraySet()
+[2022-11-04 17:16:34.924 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@3070d6e9
+[2022-11-04 17:16:34.924 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@19dd6d21
+[2022-11-04 17:16:34.933 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@41fc521f
+[2022-11-04 17:16:34.934 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@7ebd0bc9
+[2022-11-04 17:16:34.946 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@7ae2d88f
+[2022-11-04 17:16:34.946 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@19ca4892
+[2022-11-04 17:16:34.949 PDT] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@7c977945
+[2022-11-04 17:16:34.950 PDT] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@5091178a
+[2022-11-04 17:16:34.969 PDT] data model set to the default modelatt: 444, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_CARRIER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-04 17:16:35.078 PDT] LoadCreditHelper: 15543386 - Not checking - CREDIT_CHECKED is Y
+[2022-11-04 17:16:35.083 PDT] LoadCreditHelper: 15543386 - Not checking - CREDIT_CHECKED is Y
+[2022-11-04 17:16:37.201 PDT] Dynamic array is missing it's identifier: 
+[2022-11-04 17:16:49.993 PDT] Polling
+[2022-11-04 17:16:57.121 PDT] Number of messages polled 5012
+[2022-11-04 17:17:16.054 PDT] 12 = 0 ms 	 memory used = 234361840	Start of NEW Read
+[2022-11-04 17:17:16.263 PDT] 12 = 209 ms 	 memory used = 234475728	After Perform Read
+[2022-11-04 17:17:16.264 PDT] 12 = 1 ms 	 memory used = 234475728	After Read Extra
+[2022-11-04 17:17:16.265 PDT] 12 = 1 ms 	 memory used = 238332088	Before set edit
+[2022-11-04 17:17:16.273 PDT] 12 = 8 ms 	 memory used = 238332088	After set editable, start set data
+[2022-11-04 17:17:16.289 PDT] 44 = 1 ms 	 memory used = 238332088	End of loading
+[2022-11-04 17:17:16.597 PDT] 12 = 324 ms 	 memory used = 238664072	After set data
+[2022-11-04 17:17:16.597 PDT] 12 = 0 ms 	 memory used = 238664072	After dynamicArraySet()
+[2022-11-04 17:17:16.650 PDT] 12- 596 ms; Total Read Time (End of read() method Call)
+[2022-11-04 17:17:17.946 PDT] SI 142750 1
+[2022-11-04 17:17:18.073 PDT] com.intransit.util.AddChangeCarrierEmailFaxDocHelper: Resetting
+[2022-11-04 17:17:19.852 PDT] 12 = 0 ms 	 memory used = 246937872	Start of NEW Read
+[2022-11-04 17:17:20.064 PDT] 12 = 212 ms 	 memory used = 246946312	After Perform Read
+[2022-11-04 17:17:20.065 PDT] 12 = 1 ms 	 memory used = 246946312	After Read Extra
+[2022-11-04 17:17:20.065 PDT] 12 = 0 ms 	 memory used = 246946312	Before set edit
+[2022-11-04 17:17:20.066 PDT] 12 = 1 ms 	 memory used = 246946312	After set editable, start set data
+[2022-11-04 17:17:20.073 PDT] 44 = 0 ms 	 memory used = 246981120	End of loading
+[2022-11-04 17:17:20.600 PDT] 12 = 534 ms 	 memory used = 251019328	After set data
+[2022-11-04 17:17:20.602 PDT] 12 = 2 ms 	 memory used = 251019328	After dynamicArraySet()
+[2022-11-04 17:17:20.603 PDT] 12- 751 ms; Total Read Time (End of read() method Call)
+[2022-11-04 17:17:21.900 PDT] 12 = 1,298 ms 	 memory used = 256409488	Before set edit
+[2022-11-04 17:17:21.934 PDT] 12 = 34 ms 	 memory used = 256409488	After set editable, start set data
+[2022-11-04 17:17:21.941 PDT] 44 = 0 ms 	 memory used = 256546040	End of loading
+[2022-11-04 17:17:22.595 PDT] 12 = 661 ms 	 memory used = 256622520	After set data
+[2022-11-04 17:17:22.597 PDT] 12 = 2 ms 	 memory used = 260590128	After dynamicArraySet()
+[2022-11-04 17:17:25.577 PDT] 133 = 0 ms 	 memory used = 264786352	Pre Update
+[2022-11-04 17:17:26.373 PDT] 133 = 796 ms 	 memory used = 269395680	Post UPdate
+[2022-11-04 17:17:26.374 PDT] 133 = 1 ms 	 memory used = 269395680	Start of fax finish
+[2022-11-04 17:17:26.542 PDT] com.intransit.util.AddChangeCarrierEmailFaxDocHelper: Resetting
+[2022-11-04 17:17:26.825 PDT] 133 = 451 ms 	 memory used = 276044200	Pre faxPrintjob
+[2022-11-04 17:17:29.296 PDT] starting print [at com.intransit.printing.PrintPreview.performPrintOperation():715]
+[2022-11-04 17:17:29.381 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.381 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.383 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.384 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.387 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.387 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.390 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.391 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.395 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.396 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.401 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.402 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.418 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.419 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.421 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.422 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.422 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.423 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.425 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.425 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.426 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.426 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.427 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.427 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.429 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.430 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.430 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.431 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.432 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.433 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.435 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.435 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.436 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.436 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.437 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.438 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.440 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.441 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.442 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.442 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.443 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.443 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.446 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.447 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.448 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.449 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.450 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.451 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.454 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.455 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.456 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.457 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.458 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.459 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.463 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.463 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.464 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.464 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.465 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.465 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.468 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.469 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.470 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.471 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.472 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.473 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.477 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.478 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.479 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.480 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.480 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.481 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.486 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.487 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.488 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.488 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.489 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.489 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.494 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.495 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.496 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.497 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.498 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.498 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.506 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.506 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.508 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.508 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.509 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.510 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.514 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.515 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.516 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.516 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.517 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.518 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.523 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.523 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.524 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.524 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.524 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.525 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.529 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.530 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.530 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.530 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.531 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.531 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.537 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.537 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.538 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.539 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.539 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.540 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.581 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.582 PDT] Warning: expecting single-byte character, found multi-byte character 0x2019
+[2022-11-04 17:17:29.606 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.606 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:29.607 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.607 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:29.608 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:29.608 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:29.620 PDT] ending print [at com.intransit.printing.PrintPreview.performPrintOperation():772]
+[2022-11-04 17:17:45.148 PDT] 10 = 0 ms 	 memory used = 320360192	Start of fax Op
+[2022-11-04 17:17:45.150 PDT] 10 = 3 ms 	 memory used = 320360192	Fax Request Built
+[2022-11-04 17:17:45.179 PDT] 10 = 29 ms 	 memory used = 320360192	Panel cleared
+[2022-11-04 17:17:45.180 PDT] starting print [at com.intransit.printing.PrintPreview.performPrintOperation():715]
+[2022-11-04 17:17:46.147 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.150 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.152 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.152 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.154 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.154 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.156 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.157 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.159 PDT] 133 = 19,334 ms 	 memory used = 202577776	Post faxPrintjob
+[2022-11-04 17:17:46.160 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.160 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.163 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.164 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.174 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.175 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.175 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.176 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.176 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.176 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.178 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.179 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.179 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.180 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.180 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.180 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.182 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.183 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.183 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.184 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.184 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.184 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.186 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.187 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.187 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.187 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.188 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.188 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.190 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.190 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.191 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.191 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.191 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.192 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.193 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.194 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.194 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.195 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.195 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.195 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.201 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.202 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.203 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.203 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.204 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.206 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.216 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.216 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.217 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.217 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.218 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.218 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.229 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.230 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.231 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.231 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.232 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.232 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.255 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.256 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.256 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.256 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.257 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.257 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.260 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.261 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.261 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.262 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.262 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.262 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.268 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.269 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.270 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.271 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.273 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.275 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.281 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.282 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.283 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.284 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.285 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.285 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.296 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.300 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.301 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.302 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.304 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.306 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.315 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.316 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.317 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.318 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.319 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.320 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.331 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.331 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.332 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.332 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.332 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.333 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.337 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.338 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.340 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.342 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.344 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.346 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.457 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.457 PDT] Warning: expecting single-byte character, found multi-byte character 0x2019
+[2022-11-04 17:17:46.476 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.476 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:46.477 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.478 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:46.478 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:46.479 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:46.490 PDT] ending print [at com.intransit.printing.PrintPreview.performPrintOperation():772]
+[2022-11-04 17:17:46.804 PDT] 10 = 1,625 ms 	 memory used = 277027168	Fax sent.
+[2022-11-04 17:17:46.804 PDT] 10- 1,657 ms; Fax Operation Completed.
+[2022-11-04 17:17:48.141 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.142 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.143 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.144 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.147 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.147 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.149 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.150 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.151 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.152 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.153 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.154 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.161 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.161 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.163 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.163 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.163 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.164 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.165 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.166 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.166 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.166 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.167 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.167 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.168 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.169 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.169 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.169 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.170 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.170 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.172 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.172 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.172 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.173 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.173 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.173 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.175 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.175 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.175 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.176 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.176 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.176 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.178 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.178 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.179 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.179 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.179 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.180 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.181 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.182 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.182 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.182 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.183 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.183 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.185 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.185 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.185 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.185 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.185 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.186 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.187 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.188 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.188 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.188 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.189 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.189 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.191 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.191 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.192 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.192 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.192 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.193 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.195 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.195 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.195 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.196 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.196 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.196 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.199 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.199 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.200 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.200 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.200 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.201 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.203 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.203 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.204 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.204 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.205 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.205 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.208 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.208 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.209 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.209 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.210 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.210 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.213 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.213 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.214 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.214 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.215 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.215 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.218 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.218 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.219 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.219 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.219 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.219 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.223 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.223 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.224 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.224 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.224 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.224 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.241 PDT] Warning: character 0x2019 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.242 PDT] Warning: expecting single-byte character, found multi-byte character 0x2019
+[2022-11-04 17:17:48.254 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.254 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:48.255 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.255 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:48.256 PDT] Warning: character 0x2022 oustide ISO-Latin1 range -- substituting metrics
+[2022-11-04 17:17:48.256 PDT] Warning: expecting single-byte character, found multi-byte character 0x2022
+[2022-11-04 17:17:57.372 PDT] SI 142750 1
+[2022-11-04 17:17:59.703 PDT] SI 142750 1
+[2022-11-04 17:18:43.707 PDT] !!!!!!!!!!!!!   SocketWrapperImpl.reset() invoked !!!!!!!!!!!
+[2022-11-04 17:18:43.709 PDT] java.lang.Thread.getStackTrace(Unknown Source):SocketWrapperImpl$ReadThread: << Using java.io.PrintStream >>
+[2022-11-04 17:18:43.709 PDT] java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.intransit.util.net.SocketWrapperImpl$ReadThread.run(SocketWrapperImpl.java:558)
+[2022-11-04 17:18:43.758 PDT] KA:true
+[2022-11-04 17:18:44.062 PDT] socket closed, reconnecting in 20 sec, reason:write thread died
+[2022-11-04 17:18:44.062 PDT] java.lang.Thread.getStackTrace(Unknown Source):SocketWrapperImpl$ReadThread: << Using java.io.PrintStream >>
+[2022-11-04 17:18:44.063 PDT] java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.intransit.util.net.SocketWrapperImpl$ReadThread.run(SocketWrapperImpl.java:558)
+[2022-11-04 17:19:04.063 PDT] Messenger-> init networking
+[2022-11-04 17:19:04.111 PDT] KA:true
+[2022-11-04 17:19:04.168 PDT] 7 = 105 ms 	 memory used = 287036016	Finished init
+[2022-11-04 17:19:04.169 PDT] Messenger -> finished init()... Waiting for Login Response [at com.intransit.vft.messenger.client.NetMessNetworkController.initNetworking():346]
+[2022-11-04 17:19:04.169 PDT] reconnected
+[2022-11-04 17:19:04.309 PDT] Messenger-> Login Successful
+[2022-11-04 17:19:04.309 PDT] Messenger-> session obtained, waiting for client list. [at com.intransit.vft.messenger.client.NetMessNetworkController.loginSuccessful():378]
+[2022-11-04 17:19:04.545 PDT] Client List received
+[2022-11-04 17:19:08.084 PDT] Data changed -- clearing out docs 9210014 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:19:08.086 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:19:08.087 PDT] Data changed -- clearing out docs 9210014 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-04 17:19:08.088 PDT] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-04 17:19:09.311 PDT] Polling
+[2022-11-04 17:19:14.488 PDT] Number of messages polled 5012
+[2022-11-04 17:19:15.594 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:19:15.607 PDT] Dipose Called [at com.intransit.vft.lookup.AbstractLookup.dispose():482]
+[2022-11-04 17:19:44.160 PDT] Shutting down VFT [at com.intransit.vft.VFTShutdown.shutdownProcedure():94]
+[2022-11-04 17:19:44.168 PDT] Properties Removed [at com.intransit.vft.VFTShutdown.shutdownProcedure():96]
+[2022-11-04 17:19:44.187 PDT] Properties Set [at com.intransit.vft.VFTShutdown.shutdownProcedure():98]
+[2022-11-04 17:19:44.189 PDT] Calling VFT Shutdown listener: com.intransit.vft.Desktop$1@1bf332e3 [at com.intransit.vft.VFTShutdown.shutdownListener():126]
+[2022-11-04 17:19:45.210 PDT] Finished VFT Shutdown listener: com.intransit.vft.Desktop$1@1bf332e3 [at com.intransit.vft.VFTShutdown.shutdownListener():128]
+[2022-11-04 17:19:45.210 PDT] Calling VFT Shutdown listener: com.intransit.vft.system.NetworkController$NetControllerShutdown@cacc26b [at com.intransit.vft.VFTShutdown.shutdownListener():126]
+[2022-11-04 17:19:45.323 PDT] Finished VFT Shutdown listener: com.intransit.vft.system.NetworkController$NetControllerShutdown@cacc26b [at com.intransit.vft.VFTShutdown.shutdownListener():128]
+[2022-11-04 17:19:45.324 PDT] Logging off of Vft Server [at com.intransit.vft.VFTShutdown.shutdownProcedure():105]
+[2022-11-04 17:19:45.531 PDT] Logged off of Vft server [at com.intransit.vft.VFTShutdown.shutdownProcedure():107]
+[2022-11-04 17:19:45.548 PDT] Mess: shutting down GUI
+[2022-11-04 17:19:45.558 PDT] Mess: shutting down Network
+[2022-11-04 17:19:45.564 PDT] java.lang.Thread.getStackTrace(Unknown Source):Thread-21: << Using java.io.PrintStream >>
+[2022-11-04 17:19:45.565 PDT] java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source)
+	at java.util.zip.ZipFile.getEntry(Unknown Source)
+	at java.util.jar.JarFile.getEntry(Unknown Source)
+	at com.sun.deploy.cache.CachedJarFile.getEntry(Unknown Source)
+	at java.util.jar.JarFile.getJarEntry(Unknown Source)
+	at com.sun.deploy.security.DeployURLClassPath$JarLoader.getResource(Unknown Source)
+	at com.sun.deploy.security.DeployURLClassPath.getResource(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.intransit.vft.messenger.client.NetMessNetworkController.logout(NetMessNetworkController.java:251)
+	at com.intransit.vft.messenger.client.MessClientController.shutDown(MessClientController.java:112)
+	at com.intransit.util.ShutDownHook.doShutdownOperations(ShutDownHook.java:96)
+	at com.intransit.util.ShutDownHook.run(ShutDownHook.java:90)
+	at java.lang.Thread.run(Unknown Source)
+[2022-11-04 17:19:45.600 PDT] Messenger Client Networking Closed via the .logout() method [at com.intransit.vft.messenger.client.NetMessNetworkController.logout():264]
+[2022-11-04 17:19:45.601 PDT] java.lang.Thread.getStackTrace(Unknown Source):SocketWrapperImpl$ReadThread: << Using java.io.PrintStream >>
+[2022-11-04 17:19:45.601 PDT] java.net.SocketException: Socket closed
+[2022-11-04 17:19:45.601 PDT] Mess: shutting down Storage
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.intransit.util.net.SocketWrapperImpl$ReadThread.run(SocketWrapperImpl.java:558)
+[2022-11-04 17:19:45.667 PDT] Mess: exit complete
+Exception in thread "Browser Thread: 64757" [2022-11-04 17:19:45.995 PDT] java.lang.ExceptionInInitializerError
+	at com.teamdev.jxbrowser.browser.internal.rpc.BrowserStub.responsePrototype(BrowserStub.java:219)
+	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:118)
+	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:156)
+	at com.teamdev.jxbrowser.internal.BrowserThread$TaskRunner.processTasks(BrowserThread.java:134)
+	at java.lang.Thread.run(Unknown Source)
+[2022-11-04 17:19:45.997 PDT] Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source)
+	at java.util.zip.ZipFile.getEntry(Unknown Source)
+	at java.util.jar.JarFile.getEntry(Unknown Source)
+	at com.sun.deploy.cache.CachedJarFile.getEntry(Unknown Source)
+	at java.util.jar.JarFile.getJarEntry(Unknown Source)
+	at com.sun.deploy.security.DeployURLClassPath$JarLoader.getResource(Unknown Source)
+	at com.sun.deploy.security.DeployURLClassPath.getResource(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.teamdev.jxbrowser.browser.internal.rpc.BrowserClosed.<clinit>(BrowserClosed.java:627)
+[2022-11-04 17:19:46.001 PDT] 	... 5 more
+Exception in thread "Browser Thread: 64757" [2022-11-04 17:19:46.003 PDT] java.lang.NoClassDefFoundError: Could not initialize class com.teamdev.jxbrowser.browser.internal.rpc.BrowserClosed
+	at com.teamdev.jxbrowser.browser.internal.rpc.BrowserStub.responsePrototype(BrowserStub.java:219)
+	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:118)
+	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:156)
+	at com.teamdev.jxbrowser.internal.BrowserThread$TaskRunner.processTasks(BrowserThread.java:134)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Browser Thread: 64757" [2022-11-04 17:19:46.005 PDT] java.lang.NoClassDefFoundError: Could not initialize class com.teamdev.jxbrowser.browser.internal.rpc.BrowserClosed
+	at com.teamdev.jxbrowser.browser.internal.rpc.BrowserStub.responsePrototype(BrowserStub.java:219)
+	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:118)
+	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:156)
+	at com.teamdev.jxbrowser.internal.BrowserThread$TaskRunner.processTasks(BrowserThread.java:134)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Browser Thread: 64757" [2022-11-04 17:19:46.007 PDT] java.lang.NoClassDefFoundError: Could not initialize class com.teamdev.jxbrowser.browser.internal.rpc.BrowserClosed
+	at com.teamdev.jxbrowser.browser.internal.rpc.BrowserStub.responsePrototype(BrowserStub.java:219)
+	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:118)
+	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:156)
+	at com.teamdev.jxbrowser.internal.BrowserThread$TaskRunner.processTasks(BrowserThread.java:134)
+	at java.lang.Thread.run(Unknown Source)
+[2022-11-07 14:53:33.926 PST] |---------> Vft Started 2:53 PM 11/7/2022
+[2022-11-07 14:53:33.942 PST] laf class: javax.swing.plaf.metal.MetalLookAndFeel
+[2022-11-07 14:53:33.989 PST] false [at com.intransit.vft.Desktop.main():385]
+[2022-11-07 14:53:41.845 PST] Client original timezone: sun.util.calendar.ZoneInfo[id="America/New_York",offset=-18000000,dstSavings=3600000,useDaylight=true,transitions=235,lastRule=java.util.SimpleTimeZone[id=America/New_York,offset=-18000000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[2022-11-07 14:53:41.845 PST] Setting default timezone: sun.util.calendar.ZoneInfo[id="America/Los_Angeles",offset=-28800000,dstSavings=3600000,useDaylight=true,transitions=185,lastRule=java.util.SimpleTimeZone[id=America/Los_Angeles,offset=-28800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[2022-11-07 14:53:41.861 PST] Locale is set to en_US
++--- Messenger: vft.us.dsv.com:49000, Vft: vft.us.dsv.com[2022-11-07 14:53:42.064 PST] :23302---+ 
+[2022-11-07 14:53:51.416 PST] Time of forced client restart: Mon Nov 07 23:59:00 PST 2022 (current time: Mon Nov 07 14:53:51 PST 2022)
+[2022-11-07 14:53:53.289 PST] User: , pwd: 
+[2022-11-07 14:53:54.646 PST] laf class: javax.swing.plaf.metal.MetalLookAndFeel
+[2022-11-07 14:53:54.760 PST] Set to exit on close, double check the Messenger code for additional hooks. [at com.intransit.vft.Desktop.jbInit():897]
+[2022-11-07 14:53:54.852 PST] ClientList - initialized.
+[2022-11-07 14:54:04.699 PST] 0 false
+[2022-11-07 14:54:04.718 PST] 0 false
+[2022-11-07 14:54:06.189 PST] File: SR  key: DefUsr
+
+[2022-11-07 14:54:06.204 PST] File: COMPANY  key: R903
+
+[2022-11-07 14:54:14.938 PST] File: CF  key: CURRENCY
+
+[2022-11-07 14:54:14.943 PST] Record not found. File: CF, Key: CURRENCY [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():488]
+[2022-11-07 14:54:15.673 PST] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-07 14:54:15.676 PST] * Cache does not have a connection set! [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():300]
+[2022-11-07 14:54:15.681 PST] data model set to the default modelatt: 9, conversion txt: , fileName: CGR, format: 0, label: Empty, str. len.: 1, table: CAN_GET_REQUEST, column: EMPTY [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 14:54:15.687 PST] data model set to the default modelatt: 13, conversion txt: , fileName: CGR, format: 0, label: Available, str. len.: 8, table: CAN_GET_REQUEST, column: LOAD_AVAILABLE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 14:54:15.688 PST] data model set to the default modelatt: 13, conversion txt: , fileName: CGR, format: 0, label: Available, str. len.: 8, table: CAN_GET_REQUEST, column: LOAD_AVAILABLE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 14:54:15.691 PST] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@479b8e66
+[2022-11-07 14:54:15.696 PST] data model set to the default modelatt: 30, conversion txt: , fileName: CGR, format: 0, label: Rate Type, str. len.: 5, table: CAN_GET_REQUEST, column: AGREED_RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 14:54:15.699 PST] Default Model
+[2022-11-07 14:54:15.749 PST] Adding listener to the default model: com.intransit.vft.panel.maint.loads.VftLoadRequestCarrierPanel$4@29988ce7
+[2022-11-07 14:54:15.751 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@36ff10
+[2022-11-07 14:54:15.753 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@6cfa4883
+[2022-11-07 14:54:15.754 PST] Adding listener to the default model: com.intransit.vft.panel.maint.loads.VftLoadRequestCarrierPanel$ViewCommentsTable$DataListener@5b03e473
+[2022-11-07 14:54:15.888 PST] jnlp.url not specified
+[2022-11-07 14:55:53.289 PST] Checking for VFT updates...
+[2022-11-07 15:02:30.289 PST] Messenger-> init networking
+[2022-11-07 15:02:30.352 PST] KA:true
+[2022-11-07 15:02:30.481 PST] 7 = 187 ms 	 memory used = 180441424	Finished init
+[2022-11-07 15:02:30.483 PST] Messenger -> finished init()... Waiting for Login Response [at com.intransit.vft.messenger.client.NetMessNetworkController.initNetworking():346]
+[2022-11-07 15:02:30.658 PST] Messenger-> Login Successful
+[2022-11-07 15:02:30.662 PST] Verify Path: C:\Users\David Hernandez\java_chat
+[2022-11-07 15:02:30.666 PST] Messenger-> session obtained, waiting for client list. [at com.intransit.vft.messenger.client.NetMessNetworkController.loginSuccessful():378]
+[2022-11-07 15:02:30.666 PST] first file:C:\Users\David Hernandez\java_chat\verif.2.10.2022.ser1
+[2022-11-07 15:02:30.940 PST] Client List received
+[2022-11-07 15:02:31.037 PST] Setting performance logger path C:\Users\David Hernandez\My Documents/vft
+[2022-11-07 15:02:31.045 PST] client PRODUCTION: vft.us.dsv.com [at com.intransit.vft.server.client.RemoteServerConnection.setProductionServer():421]
+[2022-11-07 15:02:31.064 PST] Connecting to: //vft.us.dsv.com:23302/vft.server.VftLogin [at com.intransit.vft.server.client.RemoteServerConnection.login():448]
+[2022-11-07 15:02:31.439 PST] DHE -> Proxy[VftLogin,RemoteObjectInvocationHandler[UnicastRef2 [liveRef: [endpoint:[vft.us.dsv.com:23300,com.intransit.util.net.SslClientSocketFactory@499602d2](remote),objID:[5259cf7d:1843b857f5e:-7ffc, -7689605647415280778]]]]]
+[2022-11-07 15:02:32.202 PST] Proxy[VftLogin,RemoteObjectInvocationHandler[UnicastRef2 [liveRef: [endpoint:[vft.us.dsv.com:23300,com.intransit.util.net.SslClientSocketFactory@499602d2](remote),objID:[5259cf7d:1843b857f5e:-7ffc, -7689605647415280778]]]]] [at com.intransit.vft.server.client.RemoteServerConnection.login():490]
+[2022-11-07 15:02:32] Releasing all locks for user: DHE[2022-11-07 15:02:32.292 PST] 
+[2022-11-07 15:02:36.343 PST] Reloading table settings cache
+[2022-11-07 15:02:40.732 PST] Time to load table settings cache: 4389
+[2022-11-07 15:02:40.732 PST] Load table settings 7496
+[2022-11-07 15:02:40.734 PST] Polling
+[2022-11-07 15:02:42.358 PST] 5 false
+[2022-11-07 15:02:43.471 PST] Menu Structure doesn't exist in menuxml file for provider: CompanyPopup. Please check PopupMenu name in menuxml file.
+[2022-11-07 15:02:43.505 PST] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-07 15:02:43.521 PST] Menu Structure doesn't exist in menuxml file for provider: MultipleOrderPopup. Please check PopupMenu name in menuxml file.
+[2022-11-07 15:02:46.633 PST] Number of messages polled 5018
+[2022-11-07 15:03:02.499 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@14b30394
+[2022-11-07 15:03:02.501 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@75fe5117
+[2022-11-07 15:03:02.507 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@450e3ecb
+[2022-11-07 15:03:02.508 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@19c5b578
+[2022-11-07 15:03:02.516 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@15e6aa77
+[2022-11-07 15:03:02.517 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@12973735
+[2022-11-07 15:03:02.523 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@26dbabca
+[2022-11-07 15:03:02.524 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@1201a41c
+[2022-11-07 15:03:02.525 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@32940139
+[2022-11-07 15:03:02.526 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@1911b6c1
+[2022-11-07 15:03:02.528 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@62efdbd2
+[2022-11-07 15:03:02.529 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@7dd1a2d7
+[2022-11-07 15:03:02.553 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@28f6ceae
+[2022-11-07 15:03:02.553 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@6fb5532c
+[2022-11-07 15:03:02.561 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@7d98edb4
+[2022-11-07 15:03:02.562 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@79df4894
+[2022-11-07 15:03:02.569 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@67c27abf
+[2022-11-07 15:03:02.570 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@222b7958
+[2022-11-07 15:03:02.577 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@18e4c5e4
+[2022-11-07 15:03:02.577 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@1bfcb584
+[2022-11-07 15:03:02.579 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@6f1f33c6
+[2022-11-07 15:03:02.580 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@168766c4
+[2022-11-07 15:03:02.582 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@28724a15
+[2022-11-07 15:03:02.582 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@565c8a0a
+[2022-11-07 15:03:02.956 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@70ffc45d
+[2022-11-07 15:03:02.957 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@55e5b61c
+[2022-11-07 15:03:03.279 PST] Adding listener to the default model: com.intransit.vft.settlements.ui.panels.PaperworkCommentsPanel[,0,0,0x0,invalid,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+[2022-11-07 15:03:03.280 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@1065efbc
+[2022-11-07 15:03:03.281 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@14b17380
+[2022-11-07 15:03:03.300 PST] data model set to the default modelatt: 205, conversion txt: , fileName: LM, format: 0, label: Ship Rate Type, str. len.: 5, table: LOAD_SHIPPER, column: RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:03.302 PST] Default Model
+[2022-11-07 15:03:03.303 PST] data model set to the default modelatt: 439, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_SHIPPER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:03.305 PST] data model set to the default modelatt: 265, conversion txt: , fileName: LM, format: 0, label: Tracking Proposed Rate, str. len.: 12, table: LOAD, column: TRACKING_PROPOSED_RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:03.307 PST] Default Model
+[2022-11-07 15:03:03.308 PST] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@6e15a521
+[2022-11-07 15:03:03.309 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@1065efbc
+[2022-11-07 15:03:03.309 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@14b17380
+[2022-11-07 15:03:03.310 PST] Adding listener to the default model: com.intransit.vft.settlements.ui.panels.PaperworkCommentsPanel[,0,0,996x-1,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=java.awt.Dimension[width=996,height=-1],minimumSize=java.awt.Dimension[width=996,height=-1],preferredSize=java.awt.Dimension[width=996,height=-1]]
+[2022-11-07 15:03:03.311 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@1065efbc
+[2022-11-07 15:03:03.311 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@14b17380
+[2022-11-07 15:03:03.336 PST] data model set to the default modelatt: 444, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_CARRIER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:03.338 PST] data model set to the default modelatt: 105, conversion txt: , fileName: LM, format: 0, label: Car Rate Type, str. len.: 5, table: LOAD_CARRIER, column: RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:03.339 PST] Default Model
+[2022-11-07 15:03:03.340 PST] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@73465028
+[2022-11-07 15:03:03.399 PST] Record not found. File: WM, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-07 15:03:03.400 PST] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-07 15:03:03.419 PST] Record not found. File: WM, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-07 15:03:03.419 PST] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-07 15:03:05.741 PST] 12 = 0 ms 	 memory used = 177287024	Before set edit
+[2022-11-07 15:03:05.752 PST] 12 = 12 ms 	 memory used = 177287024	After set editable, start set data
+[2022-11-07 15:03:06.566 PST] 44 = 85 ms 	 memory used = 179479672	End of loading
+[2022-11-07 15:03:06.966 PST] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:03:06.968 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:03:07.085 PST] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:03:07.086 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:03:07.309 PST] 12 = 1,557 ms 	 memory used = 186461792	After set data
+[2022-11-07 15:03:07.310 PST] 12 = 1 ms 	 memory used = 186461792	After Update cache
+[2022-11-07 15:03:07.311 PST] 12 = 1 ms 	 memory used = 186461792	After dynamicArraySet()
+[2022-11-07 15:03:07.471 PST] SI 142750 1
+[2022-11-07 15:03:07.541 PST] SI 142750 1
+[2022-11-07 15:03:07.915 PST] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-07 15:03:09.188 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@8cb5be9
+[2022-11-07 15:03:09.188 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@2580e1e1
+[2022-11-07 15:03:09.194 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@24c8a865
+[2022-11-07 15:03:09.195 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@78183556
+[2022-11-07 15:03:09.218 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@9f6ce22
+[2022-11-07 15:03:09.219 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@477596e1
+[2022-11-07 15:03:09.223 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@3730f5a1
+[2022-11-07 15:03:09.224 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@2d542f64
+[2022-11-07 15:03:09.283 PST] data model set to the default modelatt: 444, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_CARRIER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:09.296 PST] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-07 15:03:09.297 PST] Adding listener to the default model: com.intransit.vft.swinghelpers.loads.LoadCurrencyComboBox$DataListener@3064606d
+[2022-11-07 15:03:09.299 PST] data model set to the default modelatt: 105, conversion txt: , fileName: LM, format: 0, label: Car Rate Type, str. len.: 5, table: LOAD_CARRIER, column: RATE_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:09.303 PST] Default Model
+[2022-11-07 15:03:09.305 PST] Record not found. File: CITY, Key: Default Data Model Attached [at com.intransit.vft.server.client.DynArrayCache.readNoExceptions():310]
+[2022-11-07 15:03:09.305 PST] 
+ +++++++++   Default Model Read +++++++++ 
+ [at com.intransit.vft.swinghelpers.LookupPanel.readFromId():460]
+[2022-11-07 15:03:09.307 PST] data model set to the default modelatt: 804, conversion txt: , fileName: LM, format: 0, label: Tracking Method, str. len.: 32, table: LOAD_CARRIER, column: TRACKING_TYPE [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:09.308 PST] data model set to the default modelatt: 865, conversion txt: , fileName: LM, format: 0, label: Desired Tracking Method, str. len.: 32, table: LOAD_CARRIER, column: DESIRED_TRACKING_METHOD [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:09.439 PST] Listener override for spec: att: 1, conversion txt: , fileName: LM, format: 0, label: Status, str. len.: 16, table: LOAD, column: STATUS [at com.intransit.vft.validators.LoadDataListener.setListenerForSpec():162]
+[2022-11-07 15:03:09.550 PST] 12 = 0 ms 	 memory used = 228584800	Start of NEW Read
+[2022-11-07 15:03:09.734 PST] 12 = 184 ms 	 memory used = 229578688	After Perform Read
+[2022-11-07 15:03:09.735 PST] 12 = 1 ms 	 memory used = 229578688	After Read Extra
+[2022-11-07 15:03:09.736 PST] 12 = 1 ms 	 memory used = 229578688	Before set edit
+[2022-11-07 15:03:09.737 PST] 12 = 1 ms 	 memory used = 229578688	After set editable, start set data
+[2022-11-07 15:03:09.759 PST] 44 = 1 ms 	 memory used = 230569008	End of loading
+[2022-11-07 15:03:10.195 PST] 12 = 458 ms 	 memory used = 233484440	After set data
+[2022-11-07 15:03:10.195 PST] 12 = 0 ms 	 memory used = 233484440	After dynamicArraySet()
+[2022-11-07 15:03:10.196 PST] 12- 646 ms; Total Read Time (End of read() method Call)
+[2022-11-07 15:03:14.312 PST] 12 = 4,117 ms 	 memory used = 238012248	Before set edit
+[2022-11-07 15:03:14.357 PST] 12 = 45 ms 	 memory used = 239038864	After set editable, start set data
+[2022-11-07 15:03:14.396 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@2214edc7
+[2022-11-07 15:03:14.397 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@5d0c25d2
+[2022-11-07 15:03:14.404 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@740bcc04
+[2022-11-07 15:03:14.405 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@4cbda98b
+[2022-11-07 15:03:14.429 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@8b2e0c6
+[2022-11-07 15:03:14.430 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@d1ab851
+[2022-11-07 15:03:14.435 PST] Adding listener to the default model: com.intransit.dbs.swing.mvtable.MVTableModel$RowCountDataListener@29f08149
+[2022-11-07 15:03:14.436 PST] Adding listener to the default model: com.intransit.dbs.swing.DBSMVTable$DataListener@62a7b0dd
+[2022-11-07 15:03:14.479 PST] data model set to the default modelatt: 444, conversion txt: , fileName: LM, format: 0, label: Service Level, str. len.: 4, table: LOAD_CARRIER, column: SERVICE_LEVEL [at com.intransit.dbs.swing.DBSComboBox.setTextVal():1010]
+[2022-11-07 15:03:14.512 PST] 44 = 1 ms 	 memory used = 258050808	End of loading
+[2022-11-07 15:03:15.066 PST] 12 = 709 ms 	 memory used = 261124952	After set data
+[2022-11-07 15:03:15.066 PST] 12 = 0 ms 	 memory used = 261124952	After dynamicArraySet()
+[2022-11-07 15:03:24.103 PST] 12 = 0 ms 	 memory used = 279770208	Start of NEW Read
+[2022-11-07 15:03:24.340 PST] 12 = 237 ms 	 memory used = 279937512	After Perform Read
+[2022-11-07 15:03:24.341 PST] 12 = 1 ms 	 memory used = 280928360	After Read Extra
+[2022-11-07 15:03:24.342 PST] 12 = 1 ms 	 memory used = 280928360	Before set edit
+[2022-11-07 15:03:24.347 PST] 12 = 5 ms 	 memory used = 280928360	After set editable, start set data
+[2022-11-07 15:03:24.360 PST] 44 = 0 ms 	 memory used = 281918720	End of loading
+[2022-11-07 15:03:24.650 PST] 12 = 303 ms 	 memory used = 283218608	After set data
+[2022-11-07 15:03:24.651 PST] 12 = 1 ms 	 memory used = 283218608	After dynamicArraySet()
+[2022-11-07 15:03:24.705 PST] 12- 602 ms; Total Read Time (End of read() method Call)
+[2022-11-07 15:03:28.492 PST] SI 142750 1
+[2022-11-07 15:03:28.606 PST] com.intransit.util.AddChangeCarrierEmailFaxDocHelper: Resetting
+[2022-11-07 15:12:04.514 PST] SI 142750 1
+[2022-11-07 15:12:05.580 PST] 12 = 520,929 ms 	 memory used = 183295984	Before set edit
+[2022-11-07 15:12:05.673 PST] 12 = 93 ms 	 memory used = 185327752	After set editable, start set data
+[2022-11-07 15:12:05.741 PST] 44 = 1 ms 	 memory used = 191422472	End of loading
+[2022-11-07 15:12:05.987 PST] Same key - data not loaded 15543386 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1688]
+[2022-11-07 15:12:05.988 PST] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:05.990 PST] Same key - data not loaded 15543386 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1688]
+[2022-11-07 15:12:05.991 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:06.015 PST] 12 = 342 ms 	 memory used = 193454056	After set data
+[2022-11-07 15:12:06.016 PST] 12 = 1 ms 	 memory used = 193454056	After Update cache
+[2022-11-07 15:12:06.018 PST] 12 = 2 ms 	 memory used = 193454056	After Equals
+[2022-11-07 15:12:06.019 PST] 12 = 1 ms 	 memory used = 193454056	After dynamicArraySet()
+[2022-11-07 15:12:15.668 PST] Updating 15543386
+[2022-11-07 15:12:15.781 PST] 12 = 9,762 ms 	 memory used = 206919112	Updt: Before doc check
+[2022-11-07 15:12:15.782 PST] 12 = 1 ms 	 memory used = 206919112	Updt: After doc
+[2022-11-07 15:12:16.161 PST] Problem parsing number: null [at com.intransit.util.IntNumber.getJbaseAsBD():399]
+[2022-11-07 15:12:16.274 PST] Problem parsing number: null [at com.intransit.util.IntNumber.getJbaseAsBD():399]
+[2022-11-07 15:12:16.274 PST] 15543386 createEdi214StatusUpdatesBean: 1 pickup: true status update: true warehouseId: 892498 cityId: 62
+[2022-11-07 15:12:16.868 PST] 12 = 1,086 ms 	 memory used = 213966616	Updt: Before Incentive
+[2022-11-07 15:12:16.869 PST] 12 = 1 ms 	 memory used = 213966616	Updt: After Incentive - before cancel orders
+[2022-11-07 15:12:16.869 PST] 12 = 0 ms 	 memory used = 213966616	Updt: After cancel orders
+[2022-11-07 15:12:16.944 PST] Data changed -- clearing out docs 15543386 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:16.947 PST] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:16.948 PST] Data changed -- clearing out docs 15543386 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:16.948 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:16.964 PST] 12 = 95 ms 	 memory used = 216137192	Updt: Before doc save
+[2022-11-07 15:12:16.965 PST] 12 = 1 ms 	 memory used = 216137192	Updt: After doc save
+[2022-11-07 15:12:17.032 PST] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:17.033 PST] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:17.034 PST] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:17.035 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:17.088 PST] 12 = 123 ms 	 memory used = 219670936	Maint LM Start Read
+[2022-11-07 15:12:17.089 PST] 12 = 0 ms 	 memory used = 219670936	Start of NEW Read
+[2022-11-07 15:12:17.281 PST] 12 = 192 ms 	 memory used = 221841448	After Perform Read
+[2022-11-07 15:12:17.282 PST] 12 = 1 ms 	 memory used = 221841448	After Read Extra
+[2022-11-07 15:12:17.284 PST] 12 = 2 ms 	 memory used = 221841448	Before set edit
+[2022-11-07 15:12:17.311 PST] 12 = 27 ms 	 memory used = 221841448	After set editable, start set data
+[2022-11-07 15:12:17.361 PST] 44 = 2 ms 	 memory used = 221841448	End of loading
+[2022-11-07 15:12:17.598 PST] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:17.602 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:17.604 PST] Data changed -- clearing out docs null 15543386 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:17.605 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:17.873 PST] 12 = 562 ms 	 memory used = 225905640	After set data
+[2022-11-07 15:12:17.875 PST] 12 = 2 ms 	 memory used = 225905640	After Update cache
+[2022-11-07 15:12:17.877 PST] 12 = 2 ms 	 memory used = 225905640	After Equals
+[2022-11-07 15:12:17.879 PST] 12 = 2 ms 	 memory used = 225905640	After dynamicArraySet()
+[2022-11-07 15:12:17.971 PST] 12- 882 ms; Total Read Time (End of read() method Call)
+[2022-11-07 15:12:18.044 PST] 12 = 165 ms 	 memory used = 225905640	After Read
+[2022-11-07 15:12:18.414 PST] Canceling 15543386
+[2022-11-07 15:12:18.521 PST] Data changed -- clearing out docs 15543386 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:18.521 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:18.522 PST] Data changed -- clearing out docs 15543386 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:18.522 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:25.546 PST] vft://load/15497755 [at com.intransit.vft.messenger.client.InstantMessageFrame$ExternalHyperlinkListener.hyperlinkUpdate():972]
+[2022-11-07 15:12:25.591 PST] 12 = 7,547 ms 	 memory used = 242272912	Maint LM Start Read
+[2022-11-07 15:12:25.592 PST] 12 = 0 ms 	 memory used = 242272912	Start of NEW Read
+[2022-11-07 15:12:25.877 PST] 12 = 285 ms 	 memory used = 244582256	After Perform Read
+[2022-11-07 15:12:25.877 PST] 12 = 0 ms 	 memory used = 244582256	After Read Extra
+[2022-11-07 15:12:26.506 PST] 12 = 629 ms 	 memory used = 289278208	Before set edit
+[2022-11-07 15:12:26.509 PST] 12 = 3 ms 	 memory used = 289278208	After set editable, start set data
+[2022-11-07 15:12:27.061 PST] 44 = 3 ms 	 memory used = 289278208	End of loading
+[2022-11-07 15:12:27.522 PST] Data changed -- clearing out docs null 15497755 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:27.525 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:27.526 PST] Data changed -- clearing out docs null 15497755 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:12:27.528 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:27.882 PST] 12 = 1,373 ms 	 memory used = 294292808	After set data
+[2022-11-07 15:12:27.884 PST] 12 = 2 ms 	 memory used = 294292808	After Equals
+[2022-11-07 15:12:27.885 PST] 12 = 1 ms 	 memory used = 294292808	After dynamicArraySet()
+[2022-11-07 15:12:27.891 PST] 44 = 2 ms 	 memory used = 294292808	End of loading
+[2022-11-07 15:12:28.251 PST] 12- 2,659 ms; Total Read Time (End of read() method Call)
+[2022-11-07 15:12:28.270 PST] 12 = 385 ms 	 memory used = 300647024	After Read
+[2022-11-07 15:12:35.545 PST] 12 = 7,275 ms 	 memory used = 126800488	BP Before Work
+[2022-11-07 15:12:36.184 PST] 12 = 639 ms 	 memory used = 126869744	BP After ReadDATA
+[2022-11-07 15:12:36.185 PST] 12 = 1 ms 	 memory used = 126869744	Credit Memo Populated
+[2022-11-07 15:12:36.187 PST] 12 = 2 ms 	 memory used = 126869744	Advances Populated
+[2022-11-07 15:12:36.272 PST] DBSTable is null from DBSTableModel or not DBSTable [at com.intransit.dbs.swing.table.DBSTableModel.getFilteringContainers():973]
+[2022-11-07 15:12:36.274 PST] 12 = 87 ms 	 memory used = 126869744	Invoices Populated
+[2022-11-07 15:12:36.278 PST] DBSTable is null from DBSTableModel or not DBSTable [at com.intransit.dbs.swing.table.DBSTableModel.getFilteringContainers():973]
+[2022-11-07 15:12:36.279 PST] 12 = 5 ms 	 memory used = 126869744	Check Table Populated
+[2022-11-07 15:12:36.367 PST] SR 4289016 1
+[2022-11-07 15:12:36.371 PST] Q 4289016 1
+[2022-11-07 15:12:36.375 PST] LTLWS 4289016 1
+[2022-11-07 15:12:36.378 PST] BOL 4289016 1
+[2022-11-07 15:12:38.486 PST] SR 4289016 1
+[2022-11-07 15:12:38.490 PST] Q 4289016 1
+[2022-11-07 15:12:38.493 PST] LTLWS 4289016 1
+[2022-11-07 15:12:38.496 PST] BOL 4289016 1
+[2022-11-07 15:12:38.518 PST] SR 4289016 1
+[2022-11-07 15:12:38.521 PST] Q 4289016 1
+[2022-11-07 15:12:38.523 PST] LTLWS 4289016 1
+[2022-11-07 15:12:38.526 PST] BOL 4289016 1
+[2022-11-07 15:12:38.846 PST] 12 = 2,567 ms 	 memory used = 137953904	Before set edit
+[2022-11-07 15:12:38.932 PST] 12 = 86 ms 	 memory used = 137953904	After set editable, start set data
+[2022-11-07 15:12:38.936 PST] 44 = 1 ms 	 memory used = 137953904	End of loading
+[2022-11-07 15:12:39.350 PST] Same key - data not loaded 15497755 15497755 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1688]
+[2022-11-07 15:12:39.353 PST] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:39.359 PST] Same key - data not loaded 15497755 15497755 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1688]
+[2022-11-07 15:12:39.361 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:12:39.488 PST] 12 = 556 ms 	 memory used = 140773904	After set data
+[2022-11-07 15:12:39.494 PST] 12 = 6 ms 	 memory used = 140773904	After dynamicArraySet()
+[2022-11-07 15:12:39.498 PST] 44 = 1 ms 	 memory used = 140773904	End of loading
+[2022-11-07 15:12:39.572 PST] SR 4289016 1
+[2022-11-07 15:12:39.574 PST] Q 4289016 1
+[2022-11-07 15:12:39.576 PST] LTLWS 4289016 1
+[2022-11-07 15:12:39.578 PST] BOL 4289016 1
+[2022-11-07 15:12:53.371 PST] Saving AUDC record: {DHE}{192.168.1.13}{DESKTOP-CGD9FGG}{8054}{0}{Windows 10}{10.0}{4}{}{}{en_US}{America/New_York}{}{[1920][1920]}{[1080][1080]}{0}{0}{0}{2022-11-07 15:07:44}
+
+[2022-11-07 15:13:00.503 PST] java.awt.datatransfer.DataFlavor[mimetype=application/x-java-serialized-object;representationclass=java.lang.String] [at com.intransit.swing.tranferable.HtmlSelection.getTransferData():38]
+[2022-11-07 15:13:00.505 PST] java.awt.datatransfer.DataFlavor[mimetype=application/x-java-serialized-object;representationclass=java.lang.String] [at com.intransit.swing.tranferable.HtmlSelection.getTransferData():38]
+[2022-11-07 15:13:00.506 PST] java.awt.datatransfer.DataFlavor[mimetype=application/x-java-serialized-object;representationclass=java.lang.String] [at com.intransit.swing.tranferable.HtmlSelection.getTransferData():38]
+[2022-11-07 15:13:00.507 PST] java.awt.datatransfer.DataFlavor[mimetype=text/html;representationclass=java.lang.String] [at com.intransit.swing.tranferable.HtmlSelection.isDataFlavorSupported():28]
+[2022-11-07 15:13:00.508 PST] java.awt.datatransfer.DataFlavor[mimetype=text/html;representationclass=java.lang.String] [at com.intransit.swing.tranferable.HtmlSelection.isDataFlavorSupported():28]
+[2022-11-07 15:13:00.508 PST] java.awt.datatransfer.DataFlavor[mimetype=text/html;representationclass=java.io.InputStream;charset=windows-1252] [at com.intransit.swing.tranferable.HtmlSelection.getTransferData():38]
+[2022-11-07 15:13:00.509 PST] <html><body><table border="0"><tr><td width="0%"><b>Problem Comments</b></td><td width="0%"><b>Problem Comments by</b></td><td width="0%"><b>Problem Comments Date</b></td></tr><tr><td>A/S IS BILLING US 50.00</td><td>NJO</td><td>11/07/22</td></tr><tr><td>Intercompany approved for their Warehouse in/out fee thanks</td><td>DHE</td><td>11/07/22</td></tr></table></body></html> [at com.intransit.swing.tranferable.HtmlSelection.getTransferData():41]
+Exception in thread "AWT-EventQueue-2" [2022-11-07 15:13:00.516 PST] java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at sun.awt.windows.HTMLCodec.convertToHTMLFormat(Unknown Source)
+	at sun.awt.windows.WDataTransferer.translateTransferable(Unknown Source)
+	at sun.awt.windows.WClipboard.setContentsNative(Unknown Source)
+	at sun.awt.datatransfer.SunClipboard.setContents(Unknown Source)
+	at com.intransit.dbs.swing.mvtable.MVTableCopyPasteController.copyTableText(MVTableCopyPasteController.java:306)
+	at com.intransit.dbs.swing.DBSMVTable$EventDelegate.actionPerformed(DBSMVTable.java:2230)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.AbstractButton.doClick(Unknown Source)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(Unknown Source)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+[2022-11-07 15:13:01.549 PST] SR 4289016 1
+[2022-11-07 15:13:01.644 PST] SR 4289016 1
+[2022-11-07 15:13:01.646 PST] Q 4289016 1
+[2022-11-07 15:13:01.648 PST] LTLWS 4289016 1
+[2022-11-07 15:13:01.650 PST] BOL 4289016 1
+[2022-11-07 15:13:01.674 PST] SR 4289016 1
+[2022-11-07 15:13:01.693 PST] SR 4289016 1
+[2022-11-07 15:13:01.698 PST] Q 4289016 1
+[2022-11-07 15:13:01.700 PST] LTLWS 4289016 1
+[2022-11-07 15:13:01.702 PST] BOL 4289016 1
+[2022-11-07 15:13:02.299 PST] Data changed -- clearing out docs 15497755 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:02.303 PST] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:02.306 PST] Data changed -- clearing out docs 15497755 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:02.307 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:02.658 PST] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:02.660 PST] Docs editable: true [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:02.663 PST] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:02.664 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:02.732 PST] 12 = 0 ms 	 memory used = 189205280	Start of NEW Read
+[2022-11-07 15:13:02.980 PST] 12 = 248 ms 	 memory used = 189437496	After Perform Read
+[2022-11-07 15:13:03.161 PST] 12 = 181 ms 	 memory used = 189745536	After Read Extra
+[2022-11-07 15:13:03.164 PST] 12 = 2 ms 	 memory used = 189745536	Before set edit
+[2022-11-07 15:13:03.190 PST] 12 = 27 ms 	 memory used = 192351560	After set editable, start set data
+[2022-11-07 15:13:03.228 PST] 44 = 2 ms 	 memory used = 192351560	End of loading
+[2022-11-07 15:13:03.537 PST] Data changed -- clearing out docs null 15497755 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:03.539 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:03.539 PST] Data changed -- clearing out docs null 15497755 [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:03.540 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:03.820 PST] 12 = 630 ms 	 memory used = 194957744	After set data
+[2022-11-07 15:13:03.822 PST] 12 = 2 ms 	 memory used = 194957744	After Equals
+[2022-11-07 15:13:03.824 PST] 12 = 2 ms 	 memory used = 194957744	After dynamicArraySet()
+[2022-11-07 15:13:03.837 PST] 44 = 6 ms 	 memory used = 194957744	End of loading
+[2022-11-07 15:13:03.891 PST] SR 4289016 1
+[2022-11-07 15:13:03.894 PST] Q 4289016 1
+[2022-11-07 15:13:03.898 PST] LTLWS 4289016 1
+[2022-11-07 15:13:03.902 PST] BOL 4289016 1
+[2022-11-07 15:13:03.920 PST] 12- 1,188 ms; Total Read Time (End of read() method Call)
+[2022-11-07 15:13:03.948 PST] SR 4289016 1
+[2022-11-07 15:13:03.951 PST] Q 4289016 1
+[2022-11-07 15:13:03.955 PST] LTLWS 4289016 1
+[2022-11-07 15:13:03.957 PST] BOL 4289016 1
+[2022-11-07 15:13:05.838 PST] java.awt.datatransfer.DataFlavor[mimetype=application/x-java-serialized-object;representationclass=java.lang.String] [at com.intransit.swing.tranferable.HtmlSelection.isDataFlavorSupported():28]
+[2022-11-07 15:13:05.844 PST] java.awt.datatransfer.DataFlavor[mimetype=text/plain;representationclass=java.io.InputStream;charset=utf-16le] [at com.intransit.swing.tranferable.HtmlSelection.isDataFlavorSupported():28]
+[2022-11-07 15:13:05.846 PST] java.awt.datatransfer.DataFlavor[mimetype=text/html;representationclass=java.io.InputStream;charset=windows-1252] [at com.intransit.swing.tranferable.HtmlSelection.isDataFlavorSupported():28]
+[2022-11-07 15:13:05.848 PST] java.awt.datatransfer.DataFlavor[mimetype=application/x-java-serialized-object;representationclass=java.lang.String] [at com.intransit.swing.tranferable.HtmlSelection.getTransferData():38]
+[2022-11-07 15:13:16.602 PST] Received typed msg for conversation 67168402:false
+[2022-11-07 15:13:19.239 PST] Removing frame: AWT-EventQueue-2 DHE
+[2022-11-07 15:13:24.183 PST] Data changed -- clearing out docs 15497755 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:24.184 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:24.184 PST] Data changed -- clearing out docs 15497755 null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:24.185 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:24.276 PST] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:24.277 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:13:24.278 PST] Data changed -- clearing out docs null null [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1680]
+[2022-11-07 15:13:24.279 PST] Docs editable: false [at com.intransit.vft.panel.AbstractDocumentsPanel$ParentDataListener.dataChanged():1696]
+[2022-11-07 15:14:46.657 PST] Polling
+[2022-11-07 15:14:52.637 PST] Number of messages polled 5017
+[2022-11-07 15:28:08.350 PST] Shutting down VFT [at com.intransit.vft.VFTShutdown.shutdownProcedure():94]
+[2022-11-07 15:28:08.351 PST] Properties Removed [at com.intransit.vft.VFTShutdown.shutdownProcedure():96]
+[2022-11-07 15:28:08.966 PST] Menu Structure doesn't exist in menuxml file for provider: Load Location. Please check PopupMenu name in menuxml file.
+[2022-11-07 15:28:08.975 PST] Menu Structure doesn't exist in menuxml file for provider: MultipleOrderPopup. Please check PopupMenu name in menuxml file.
+[2022-11-07 15:28:09.374 PST] Properties Set [at com.intransit.vft.VFTShutdown.shutdownProcedure():98]
+[2022-11-07 15:28:09.375 PST] Calling VFT Shutdown listener: com.intransit.vft.Desktop$1@22bfa302 [at com.intransit.vft.VFTShutdown.shutdownListener():126]
+[2022-11-07 15:28:09.376 PST] Finished VFT Shutdown listener: com.intransit.vft.Desktop$1@22bfa302 [at com.intransit.vft.VFTShutdown.shutdownListener():128]
+[2022-11-07 15:28:09.377 PST] Calling VFT Shutdown listener: com.intransit.vft.system.NetworkController$NetControllerShutdown@5cf18be6 [at com.intransit.vft.VFTShutdown.shutdownListener():126]
+[2022-11-07 15:28:09.492 PST] Finished VFT Shutdown listener: com.intransit.vft.system.NetworkController$NetControllerShutdown@5cf18be6 [at com.intransit.vft.VFTShutdown.shutdownListener():128]
+[2022-11-07 15:28:09.493 PST] Logging off of Vft Server [at com.intransit.vft.VFTShutdown.shutdownProcedure():105]
+[2022-11-07 15:28:09.686 PST] Logged off of Vft server [at com.intransit.vft.VFTShutdown.shutdownProcedure():107]
+[2022-11-07 15:28:09.698 PST] Mess: shutting down GUI
+[2022-11-07 15:28:09.702 PST] Mess: shutting down Network
+[2022-11-07 15:28:09.711 PST] java.lang.Thread.getStackTrace(Unknown Source):Thread-27: << Using java.io.PrintStream >>
+[2022-11-07 15:28:09.716 PST] java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source)
+	at java.util.zip.ZipFile.getEntry(Unknown Source)
+	at java.util.jar.JarFile.getEntry(Unknown Source)
+	at com.sun.deploy.cache.CachedJarFile.getEntry(Unknown Source)
+	at java.util.jar.JarFile.getJarEntry(Unknown Source)
+	at com.sun.deploy.security.DeployURLClassPath$JarLoader.getResource(Unknown Source)
+	at com.sun.deploy.security.DeployURLClassPath.getResource(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.sun.jnlp.JNLPClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.intransit.vft.messenger.client.NetMessNetworkController.logout(NetMessNetworkController.java:251)
+	at com.intransit.vft.messenger.client.MessClientController.shutDown(MessClientController.java:112)
+	at com.intransit.util.ShutDownHook.doShutdownOperations(ShutDownHook.java:96)
+	at com.intransit.util.ShutDownHook.run(ShutDownHook.java:90)
+	at java.lang.Thread.run(Unknown Source)
+[2022-11-07 15:28:09.760 PST] Messenger Client Networking Closed via the .logout() method [at com.intransit.vft.messenger.client.NetMessNetworkController.logout():264]
+[2022-11-07 15:28:09.764 PST] java.lang.Thread.getStackTrace(Unknown Source):SocketWrapperImpl$ReadThread: << Using java.io.PrintStream >>
+[2022-11-07 15:28:09.766 PST] java.net.SocketException: Socket closed
+[2022-11-07 15:28:09.766 PST] Mess: shutting down Storage
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.intransit.util.net.SocketWrapperImpl$ReadThread.run(SocketWrapperImpl.java:558)
+[2022-11-07 15:28:09.825 PST] Mess: exit complete
